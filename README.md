@@ -1,6 +1,6 @@
 ![Unbenannt-2](https://github.com/DefaultO/Intralism-BepInEx-Mod/assets/42414542/8dd7f627-6072-4c9a-ab67-ec9a4a63986e)
 # Intralism BepInEx Mod
-This is my take on a Plugin for the game Intralism. As wished for by Ludeo in a Discord reply regarding [their own Intralism Plugin](https://github.com/Ludeo/IntralismPlugins).
+This is my take on a Plugin for the game [Intralism](https://store.steampowered.com/app/513510/Intralism/). As wished for by Ludeo in a Discord reply regarding [their own Intralism Plugin](https://github.com/Ludeo/IntralismPlugins).
 > ...
 > Maybe we can get some people together to start making plugins
 > ...
@@ -10,7 +10,7 @@ I stripped my Cheats and Exploits from this Plugin so that normal players can us
 ### How to use:
 1. Download BepInEx_x64 v5.4.21 from [here](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.21). It can work with newer versions of it. But since I have been developing this Plugin using that specific version. I can't and won't guarantee that the Plugin works with newer versions of it.
 2. Extract the files into the root folder of the Intralism game (next to Intralism.exe). Start the game so that BepInEx can initialize itself. After successfully loading into the game - BepInEx should be installed successfully. Close the game again.
-3. Build the project. In order to build it, you will have to provide it with all dependencies it needs. You can find all of these .dlls in the Intralism game directory ``..\Intralism\Intralism_Data\Managed``.
+3. Build the project. In order to build it, you will have to provide it with all dependencies it needs. You can find most of these .dlls in the Intralism game directory ``..\Intralism\Intralism_Data\Managed``.
 4. Drop the ``Intralism-Internal.dll`` into the plugins folder ``..\Intralism\BepInEx\plugins``. If it doesn't exist, create it and proceed.
 5. Start the game.
 
